@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2123676C22723DD7002A211B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2123676B22723DD6002A211B /* README.md */; };
-		35C63386CDD227E182EC2D11 /* Pods_StreemVisionSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6951A593A87AD15A0EFB857 /* Pods_StreemVisionSample.framework */; };
+		79335701C67E0AD3E06237E7 /* Pods_StreemVisionSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C668173672923514C2C0F4 /* Pods_StreemVisionSample.framework */; };
 		B7E636DE2270A99300C8B4E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E636DD2270A99300C8B4E6 /* AppDelegate.swift */; };
 		B7E636E02270A99300C8B4E6 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = B7E636DF2270A99300C8B4E6 /* art.scnassets */; };
 		B7E636E22270A99300C8B4E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E636E12270A99300C8B4E6 /* ViewController.swift */; };
@@ -19,9 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0223F58209FFBCAE29372C13 /* Pods-StreemVisionSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreemVisionSample.debug.xcconfig"; path = "Target Support Files/Pods-StreemVisionSample/Pods-StreemVisionSample.debug.xcconfig"; sourceTree = "<group>"; };
+		20C668173672923514C2C0F4 /* Pods_StreemVisionSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StreemVisionSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2123676B22723DD6002A211B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		27B621F9F61E6F351A294576 /* Pods-StreemVisionSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreemVisionSample.release.xcconfig"; path = "Target Support Files/Pods-StreemVisionSample/Pods-StreemVisionSample.release.xcconfig"; sourceTree = "<group>"; };
-		B6951A593A87AD15A0EFB857 /* Pods_StreemVisionSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StreemVisionSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71F8031B091E1BAE9535067B /* Pods-StreemVisionSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreemVisionSample.release.xcconfig"; path = "Target Support Files/Pods-StreemVisionSample/Pods-StreemVisionSample.release.xcconfig"; sourceTree = "<group>"; };
 		B7E636DA2270A99300C8B4E6 /* StreemVisionSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreemVisionSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7E636DD2270A99300C8B4E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7E636DF2270A99300C8B4E6 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -31,7 +32,6 @@
 		B7E636E92270A99500C8B4E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7E636EB2270A99500C8B4E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7E636F12270AD1200C8B4E6 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
-		C5C71A18DCABC6DE7DAB1822 /* Pods-StreemVisionSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreemVisionSample.debug.xcconfig"; path = "Target Support Files/Pods-StreemVisionSample/Pods-StreemVisionSample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,17 +39,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35C63386CDD227E182EC2D11 /* Pods_StreemVisionSample.framework in Frameworks */,
+				79335701C67E0AD3E06237E7 /* Pods_StreemVisionSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7AFC3762500359EF53582E5D /* Frameworks */ = {
+		B5C9E021D86ED7CF61AB8C43 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B6951A593A87AD15A0EFB857 /* Pods_StreemVisionSample.framework */,
+				20C668173672923514C2C0F4 /* Pods_StreemVisionSample.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -61,7 +61,7 @@
 				B7E636DC2270A99300C8B4E6 /* StreemVisionSample */,
 				B7E636DB2270A99300C8B4E6 /* Products */,
 				F0F29B41A42D53DD663D5A57 /* Pods */,
-				7AFC3762500359EF53582E5D /* Frameworks */,
+				B5C9E021D86ED7CF61AB8C43 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,8 +91,8 @@
 		F0F29B41A42D53DD663D5A57 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C5C71A18DCABC6DE7DAB1822 /* Pods-StreemVisionSample.debug.xcconfig */,
-				27B621F9F61E6F351A294576 /* Pods-StreemVisionSample.release.xcconfig */,
+				0223F58209FFBCAE29372C13 /* Pods-StreemVisionSample.debug.xcconfig */,
+				71F8031B091E1BAE9535067B /* Pods-StreemVisionSample.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -104,11 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B7E636EE2270A99500C8B4E6 /* Build configuration list for PBXNativeTarget "StreemVisionSample" */;
 			buildPhases = (
-				8BDFC9E90DED58E14F50277E /* [CP] Check Pods Manifest.lock */,
+				AE7FCCC971E64A6896B724C5 /* [CP] Check Pods Manifest.lock */,
 				B7E636D62270A99300C8B4E6 /* Sources */,
 				B7E636D72270A99300C8B4E6 /* Frameworks */,
 				B7E636D82270A99300C8B4E6 /* Resources */,
-				46927D84EF8F46A38222D842 /* [CP] Embed Pods Frameworks */,
+				1E0FEC8D3F2951B27A6E317A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -168,35 +168,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		46927D84EF8F46A38222D842 /* [CP] Embed Pods Frameworks */ = {
+		1E0FEC8D3F2951B27A6E317A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-StreemVisionSample/Pods-StreemVisionSample-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
-				"${BUILT_PRODUCTS_DIR}/JustLog/JustLog.framework",
-				"${PODS_ROOT}/StreemVision/StreemVision.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftyBeaver/SwiftyBeaver.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-StreemVisionSample/Pods-StreemVisionSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JustLog.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StreemVision.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyBeaver.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-StreemVisionSample/Pods-StreemVisionSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StreemVisionSample/Pods-StreemVisionSample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8BDFC9E90DED58E14F50277E /* [CP] Check Pods Manifest.lock */ = {
+		AE7FCCC971E64A6896B724C5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -371,7 +360,7 @@
 		};
 		B7E636EF2270A99500C8B4E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5C71A18DCABC6DE7DAB1822 /* Pods-StreemVisionSample.debug.xcconfig */;
+			baseConfigurationReference = 0223F58209FFBCAE29372C13 /* Pods-StreemVisionSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -392,7 +381,7 @@
 		};
 		B7E636F02270A99500C8B4E6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27B621F9F61E6F351A294576 /* Pods-StreemVisionSample.release.xcconfig */;
+			baseConfigurationReference = 71F8031B091E1BAE9535067B /* Pods-StreemVisionSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

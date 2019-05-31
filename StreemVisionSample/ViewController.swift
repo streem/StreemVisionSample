@@ -111,11 +111,13 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARSmartSessionDelegat
 
     // Override to create and configure nodes for anchors added to the view's session.
     func renderer(_ renderer: SCNSceneRenderer, nodeFor anchor: ARAnchor) -> SCNNode? {
+/*
+        // Can call a custom ar interaction like below. For demo we just return an empty node
         if let smartAnchor = anchor as? ARSmartAnchor {
             return nodeForSmartAnchor(smartAnchor)
         }
-        let node = SCNNode()
-        return node
+ */
+        return SCNNode()
     }
 
 /*
