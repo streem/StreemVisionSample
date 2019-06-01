@@ -50,6 +50,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARSmartSessionDelegat
         // Create a smart session
         smartSession = ARSmartSession(apiKey: streemAPIKey, sceneView: sceneView)
         smartSession.delegate = self
+        smartSession.toggleMeshColoring()
 
         // Assign a delegate for processing frames from the arkit session
         frameHandler = ARSessionDelegateHandler(session: smartSession)
